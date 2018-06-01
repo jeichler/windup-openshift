@@ -443,7 +443,7 @@
                         "containers": [
                             {
                                 "name": "${APPLICATION_NAME}",
-                                "image": "docker.io/windup3/windup-web-openshift",
+                                "image": "docker.io/janinee/windup-web-openshift",
                                 "imagePullPolicy": "Always",
                                 "resources": {
                                     "requests": {
@@ -744,7 +744,7 @@
                         "containers": [
                             {
                                 "name": "${APPLICATION_NAME}-executor",
-                                "image": "docker.io/windup3/windup-web-openshift-messaging-executor",
+                                "image": "docker.io/janinee/windup-web-openshift-messaging-executor",
                                 "imagePullPolicy": "Always",
                                 "resources": {
                                     "requests": {
